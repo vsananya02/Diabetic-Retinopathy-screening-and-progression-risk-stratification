@@ -12,14 +12,14 @@ Diabetic retinopathy is a major cause of preventable blindness. Early detection 
 
 ## Key Features & Innovations
 
-- **DR Severity Classification** — Predicts from fundus images (224×224×3) with 79.93% accuracy.
-- **Multimodal Fusion** — Combines DenseNet121 image features (256) + HbA1c clinical features (16) for improved discrimination.
-- **Personalized Risk Assessment** — Estimates 6- and 12-month progression risks using DR grade, HbA1c, age, diabetes duration, and systolic BP.
-- **Clinical Recommendations** — Suggests next screening interval (1–12 months) and actions (e.g., "Immediate referral" for Very High Risk).
-- **HbA1c Impact Comparison** — Shows how changing HbA1c (6.5%, 8.5%, 10.5%) affects risk for the **same retinal image** — demonstrates precision medicine.
-- **LIME Explainability** — Generates visual heatmaps and overlays highlighting influential retinal regions (e.g., lesions, vessels, macula). 
-- **Patient-Friendly Summaries** — Simple, non-technical notes for each DR grade.
-- **Research Prototype Disclaimer** — For educational/research use only — not for clinical diagnosis.
+- **DR Severity Classification** - Predicts from fundus images (224×224×3) with 79.93% accuracy.
+- **Multimodal Fusion** - Combines DenseNet121 image features (256) + HbA1c clinical features (16) for improved discrimination.
+- **Personalized Risk Assessment** - Estimates 6- and 12-month progression risks using DR grade, HbA1c, age, diabetes duration, and systolic BP.
+- **Clinical Recommendations** - Suggests next screening interval (1–12 months) and actions (e.g., "Immediate referral" for Very High Risk).
+- **HbA1c Impact Comparison** - Shows how changing HbA1c (6.5%, 8.5%, 10.5%) affects risk for the **same retinal image** - demonstrates precision medicine.
+- **LIME Explainability** - Generates visual heatmaps and overlays highlighting influential retinal regions (e.g., lesions, vessels, macula). 
+- **Patient-Friendly Summaries** - Simple, non-technical notes for each DR grade.
+- **Research Prototype Disclaimer** - For educational/research use only — not for clinical diagnosis.
 
 ## Technologies & Tools Used
 
@@ -75,14 +75,14 @@ Public diabetic retinopathy dataset of colored retinal fundus images (APTOS 2019
 **Notes**:
 - Excellent on No_DR and Moderate.
 - Lower recall on rare classes due to imbalance.
-- Macro F1 (0.5962) shows balanced performance — crucial for detecting vision-threatening DR.
+- Macro F1 (0.5962) shows balanced performance - crucial for detecting vision-threatening DR.
 
 **Improvement**: +6.39% accuracy over image-only DenseNet121 baseline (73.54%).
 
 ## Features to Highlight
 
-1. **LIME + Overlay Visualization** — Shows red-highlighted regions (lesions/vessels) influencing prediction.
-2. **HbA1c Sensitivity Analysis** — Proves same image + different HbA1c -> different urgency (precision medicine).
-3. **VTDR-based Risk Calculator** — Personalized 6/12-month risks + category (Low -> Very High) + screening advice.
-4. **Class Imbalance Handling** — Demonstrates macro F1 as honest metric for rare severe cases.
-5. **End-to-End Pipeline** — From image upload -> prediction → explanation -> clinical recommendation.
+1. **LIME + Overlay Visualization** - Shows red-highlighted regions (lesions/vessels) influencing prediction.
+2. **HbA1c Sensitivity Analysis** - Proves same image + different HbA1c -> different urgency (precision medicine).
+3. **VTDR-based Risk Calculator** - Personalized 6/12-month risks + category (Low -> Very High) + screening advice.
+4. **Class Imbalance Handling** - Demonstrates macro F1 as honest metric for rare severe cases.
+5. **End-to-End Pipeline** - From image upload -> prediction → explanation -> clinical recommendation.
