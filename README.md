@@ -86,3 +86,13 @@ Public diabetic retinopathy dataset of colored retinal fundus images (APTOS 2019
 3. **VTDR-based Risk Calculator** - Personalized 6/12-month risks + category (Low -> Very High) + screening advice.
 4. **Class Imbalance Handling** - Demonstrates macro F1 as honest metric for rare severe cases.
 5. **End-to-End Pipeline** - From image upload -> prediction → explanation -> clinical recommendation.
+
+## Contact
+**Developed by:** V.S. Ananya  
+**Email:** vsananya02@gmail.com  
+**GitHub:** [vsananya02] (https://github.com/vsananya02)
+**LinkedIn:** [V.S.Ananya](https://www.linkedin.com/in/v-s-ananya-21b32a28a/)
+
+For questions, collaborations, or feedback - feel free to reach out!
+
+**Note:** This is a research/educational prototype — not for clinical use.
